@@ -12,17 +12,23 @@ struct LandMarkListView: View {
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [LandMark] {
-            landmarks.filter { landmark in
-                (!showFavoritesOnly || landmark.isFavorite)
-            }
+        landmarks.filter { landmark in
+            (!showFavoritesOnly || landmark.isFavorite)
         }
+    }
     
     var body: some View {
         NavigationView {
-            List(landmarks) { landmark in
-                NavigationLink(
-                    destination: LandMarkDetailView(landmark: landmark)) {
-                    LandMarkRowView(landmark: landmark)
+            List{
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorite List")
+                }
+                ForEach(filteredLandmarks) { landmark in
+                    NavigationLink(
+                        destination: LandMarkDetailView(landmark: landmark)) {
+                        LandMarkRowView(landmark: landmark)
+                    }
+                    
                 }
             }
             .navigationTitle("LandMark List")
