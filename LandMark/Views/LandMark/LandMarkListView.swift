@@ -39,5 +39,6 @@ struct LandMarkListView: View {
 struct LandMarkListView_Previews: PreviewProvider {
     static var previews: some View {
         LandMarkListView()
+            .environmentObject(ModelData())
     }
 }
