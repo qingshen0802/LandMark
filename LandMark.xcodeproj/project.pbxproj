@@ -23,6 +23,10 @@
 		AF0A5F692644835D00E8A39A /* CategoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A5F682644835D00E8A39A /* CategoryHomeView.swift */; };
 		AF0A5F6D264485E800E8A39A /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A5F6C264485E800E8A39A /* CategoryRowView.swift */; };
 		AF0A5F702644864700E8A39A /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A5F6F2644864700E8A39A /* CategoryItemView.swift */; };
+		AF731DAF2644FCD6006F094D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DAE2644FCD6006F094D /* Profile.swift */; };
+		AF731DB32644FD4C006F094D /* ProfileHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DB22644FD4C006F094D /* ProfileHostView.swift */; };
+		AF731DB62644FD89006F094D /* ProfileSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DB52644FD89006F094D /* ProfileSummaryView.swift */; };
+		AF731DBB2645000C006F094D /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DBA2645000C006F094D /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		AF0A5F682644835D00E8A39A /* CategoryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHomeView.swift; sourceTree = "<group>"; };
 		AF0A5F6C264485E800E8A39A /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
 		AF0A5F6F2644864700E8A39A /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		AF731DAE2644FCD6006F094D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AF731DB22644FD4C006F094D /* ProfileHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHostView.swift; sourceTree = "<group>"; };
+		AF731DB52644FD89006F094D /* ProfileSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummaryView.swift; sourceTree = "<group>"; };
+		AF731DBA2645000C006F094D /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,7 @@
 		AF0A5F292643D7A700E8A39A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AF731DB12644FD3D006F094D /* Profile */,
 				AF0A5F352643D7ED00E8A39A /* ContentView.swift */,
 				AF0A5F6526447E7E00E8A39A /* Helper */,
 				AF0A5F6426447E5200E8A39A /* LandMark */,
@@ -110,6 +119,7 @@
 			children = (
 				AF0A5F2F2643D7D800E8A39A /* LandMark.swift */,
 				AF0A5F302643D7D800E8A39A /* ModelData.swift */,
+				AF731DAE2644FCD6006F094D /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +153,16 @@
 				AF0A5F6126447D3B00E8A39A /* FavoriteButtonView.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF731DB12644FD3D006F094D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AF731DB22644FD4C006F094D /* ProfileHostView.swift */,
+				AF731DB52644FD89006F094D /* ProfileSummaryView.swift */,
+				AF731DBA2645000C006F094D /* ProfileEditor.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +238,7 @@
 				AF0A5F432643DCA500E8A39A /* LandMarkDetailView.swift in Sources */,
 				AF0A5F312643D7D800E8A39A /* LandMark.swift in Sources */,
 				AF0A5F322643D7D800E8A39A /* ModelData.swift in Sources */,
+				AF731DAF2644FCD6006F094D /* Profile.swift in Sources */,
 				AF0A5F402643DAE200E8A39A /* LandMarkListView.swift in Sources */,
 				AF0A5F3D2643D8B800E8A39A /* LandMarkRowView.swift in Sources */,
 				AF0A5F6D264485E800E8A39A /* CategoryRowView.swift in Sources */,
@@ -227,7 +248,10 @@
 				AF0A5F372643D7ED00E8A39A /* CircleImageView.swift in Sources */,
 				AF0A5F702644864700E8A39A /* CategoryItemView.swift in Sources */,
 				AF0A5F6226447D3B00E8A39A /* FavoriteButtonView.swift in Sources */,
+				AF731DB62644FD89006F094D /* ProfileSummaryView.swift in Sources */,
+				AF731DBB2645000C006F094D /* ProfileEditor.swift in Sources */,
 				AF0A5F1A2643D77F00E8A39A /* LandMarkApp.swift in Sources */,
+				AF731DB32644FD4C006F094D /* ProfileHostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
