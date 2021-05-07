@@ -27,6 +27,10 @@
 		AF731DB32644FD4C006F094D /* ProfileHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DB22644FD4C006F094D /* ProfileHostView.swift */; };
 		AF731DB62644FD89006F094D /* ProfileSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DB52644FD89006F094D /* ProfileSummaryView.swift */; };
 		AF731DBB2645000C006F094D /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DBA2645000C006F094D /* ProfileEditor.swift */; };
+		AF731DBF2645067D006F094D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DBE2645067D006F094D /* PageViewController.swift */; };
+		AF731DC426450806006F094D /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DC326450806006F094D /* FeatureCard.swift */; };
+		AF731DC72645089B006F094D /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DC62645089B006F094D /* PageView.swift */; };
+		AF731DCA26450AA2006F094D /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF731DC926450AA2006F094D /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		AF731DB22644FD4C006F094D /* ProfileHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHostView.swift; sourceTree = "<group>"; };
 		AF731DB52644FD89006F094D /* ProfileSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummaryView.swift; sourceTree = "<group>"; };
 		AF731DBA2645000C006F094D /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		AF731DBE2645067D006F094D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		AF731DC326450806006F094D /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		AF731DC62645089B006F094D /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		AF731DC926450AA2006F094D /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 		AF0A5F292643D7A700E8A39A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AF731DBD26450659006F094D /* PageView */,
 				AF731DB12644FD3D006F094D /* Profile */,
 				AF0A5F352643D7ED00E8A39A /* ContentView.swift */,
 				AF0A5F6526447E7E00E8A39A /* Helper */,
@@ -163,6 +172,17 @@
 				AF731DBA2645000C006F094D /* ProfileEditor.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		AF731DBD26450659006F094D /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				AF731DBE2645067D006F094D /* PageViewController.swift */,
+				AF731DC326450806006F094D /* FeatureCard.swift */,
+				AF731DC62645089B006F094D /* PageView.swift */,
+				AF731DC926450AA2006F094D /* PageControl.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +260,10 @@
 				AF0A5F322643D7D800E8A39A /* ModelData.swift in Sources */,
 				AF731DAF2644FCD6006F094D /* Profile.swift in Sources */,
 				AF0A5F402643DAE200E8A39A /* LandMarkListView.swift in Sources */,
+				AF731DC72645089B006F094D /* PageView.swift in Sources */,
 				AF0A5F3D2643D8B800E8A39A /* LandMarkRowView.swift in Sources */,
 				AF0A5F6D264485E800E8A39A /* CategoryRowView.swift in Sources */,
+				AF731DCA26450AA2006F094D /* PageControl.swift in Sources */,
 				AF0A5F382643D7ED00E8A39A /* ContentView.swift in Sources */,
 				AF0A5F392643D7ED00E8A39A /* MapContentView.swift in Sources */,
 				AF0A5F692644835D00E8A39A /* CategoryHomeView.swift in Sources */,
@@ -250,6 +272,8 @@
 				AF0A5F6226447D3B00E8A39A /* FavoriteButtonView.swift in Sources */,
 				AF731DB62644FD89006F094D /* ProfileSummaryView.swift in Sources */,
 				AF731DBB2645000C006F094D /* ProfileEditor.swift in Sources */,
+				AF731DC426450806006F094D /* FeatureCard.swift in Sources */,
+				AF731DBF2645067D006F094D /* PageViewController.swift in Sources */,
 				AF0A5F1A2643D77F00E8A39A /* LandMarkApp.swift in Sources */,
 				AF731DB32644FD4C006F094D /* ProfileHostView.swift in Sources */,
 			);
